@@ -9,6 +9,9 @@ if [[ $1 == "agent" ]]; then
 	nomad agent --dev &
 fi
 
+# TODO: current issues
+# No nodes were eligible for evaluation
+# No nodes are available in datacenter us-east-1
 # spawn jobs if specified
 if [[ $1 == "jobs" ]]; then
 	# spawn the jobs
