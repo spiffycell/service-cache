@@ -1,4 +1,5 @@
 job "postgres" {
+  datacenters = ["us-east-1"]
   type = "service"
 
   update {
